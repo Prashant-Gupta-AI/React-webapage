@@ -1,7 +1,11 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 
 const Navbar = () =>{
+    // console.log(props)
+    // setTimeout( () =>{
+    //     props.history.push('/about')
+    // },2000)
     return(
        <nav className="ui raised very padded segment">
         <a className="ui teal inverted segment" href='replace'>Gloria</a>
